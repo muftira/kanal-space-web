@@ -1,0 +1,102 @@
+.garis2 {
+    width: 400px;
+    height: 2px;
+    background: #DBA514;
+    margin-top: 25px;
+}
+
+.social-media a {
+    color: #DBA514;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.social-media .sosSatu {
+    -webkit-animation: animationTsatu 7s;
+            animation: animationTsatu 7s;
+}
+
+.social-media .sosDua {
+    -webkit-animation: animationTsatu 7s;
+            animation: animationTsatu 7s;
+}
+.social-media {
+    margin-top: 15px;
+}
+
+
+ iframe {
+    margin: auto;
+   
+    
+}
+
+.map {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 50px;
+    -webkit-animation: animationMap 3s;
+    animation: animationMap 3s;
+}
+
+@keyframes animationMap {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.tsatu {
+    font-size: 45px;
+    font-weight: bold;
+    -webkit-animation: animationTsatu 2s;
+            animation: animationTsatu 2s;
+}
+
+@keyframes animationTsatu {
+    from {
+        opacity: 0%;
+        transform: translateY(-20px);
+        
+    }
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+    
+}
+
+.tdua {
+    -webkit-animation: animationTsatu 3s;
+            animation: animationTsatu 3s; 
+}
+
+.ttiga {
+    -webkit-animation: animationTsatu 4s;
+    animation: animationTsatu 4s; 
+}
+.box-kanan .text-location {
+    
+    text-align: center;
+    color: #DBA514;
+}
+
+@media (max-width:1024px) {
+    .map {
+        width: 70%;
+        height: 50%;
+        
+    }
+}
+
+@media (max-width:768px) {
+    .map {
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
